@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -24,6 +24,8 @@ body {
 
 .topnav {
     display: flex;
+    position: sticky;
+    top:0;
     overflow: hidden;
     background-color: #333;
     align-items: flex-end;
@@ -67,7 +69,7 @@ body {
     flex-direction: column;
     float: left;
     width: 20%;
-    background-color: #060338;
+    background-color: #f7f6fa;
     padding-left: 20px;
 }
 
@@ -94,6 +96,7 @@ body {
 }
 
 #postimage {
+    margin-top: 10%;
     width: 100px;
     border-radius: 20px;
 }
@@ -112,6 +115,7 @@ body {
     display: flex;
     justify-content: space-around;
     background-color: white;
+    
     padding: 20px;
     margin-top: 20px;
 
@@ -185,7 +189,7 @@ body {
 }
 
 #prdkt:hover {
-    width: 55%;
+    width: 50%;
 }
 
 .ptag {

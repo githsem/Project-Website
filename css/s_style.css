@@ -113,6 +113,11 @@ body {
     margin-top: 20px;
 }
 
+@media (max-width: 800px) {
+    .about1 {
+        width: 100%;
+    }
+
 @media screen and (max-width: 800px) {
     .leftcolumn, .rightcolumn {
         width: 100%;

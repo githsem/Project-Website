@@ -1,3 +1,16 @@
+*{
+  margin: 0;
+}
+.header {
+  display: flex;
+  background: #1abc9c;
+  color: white;
+  background-image: url("/images/digital.jpg");
+  
+}
+.header h1 {
+  font-size: 50px
+}
 .topnav {
   display: flex;
   overflow: hidden;
