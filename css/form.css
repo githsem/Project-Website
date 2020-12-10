@@ -102,3 +102,12 @@ button[type="submit"] {
   block-size: initial;
   position: relative;
 }
+@media (max-width: 800px) {
+
+  .form-row{
+      margin-left: 0px;
+      display: table;
+  
+  }
+ 
+}
