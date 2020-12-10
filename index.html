@@ -1,70 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8"
-        <title>Web</title>
-        <link
-            rel="stylesheet"
-            type="text/css"
-            href="css/style.css"
-        >
-    </head>
-    <body>
-        <!---------------------Header------------------->
-        <div class="header">
-            <div>
-                <h1>My Website</h1>
-                <p>Resize the browser window to see the effect.</p>
-                <img src="logo_200x200.png" alt="cover" width="125px">
+
+<head>
+    <meta charset="utf-8" <title>Web</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <!---------------------Header------------------->
+    <div class="header">
+        <div>
+            <h1>My Website</h1>
+            <p>Resize the browser window to see the effect.</p>
+            <img src="logo_200x200.png" alt="cover" width="125px">
+        </div>
+    </div>
+    <!--Menu-->
+    <div class="topnav">
+        <a href="#">Home</a>
+        <a href="#">Kontakt</a>
+        <a href="#">Account</a>
+        <a href="#" style="float:right">About</a>
+    </div>
+    <!---------------------body--------------------------->
+    <div class="row">
+        <div class="leftcolumn">
+            <div class="card1">
+                <img id="teamimage1" src="images/teamimage.jpg" alt="teambild">
+            </div>
+            <!-- article Produkte-->
+            <div class="card2">
+                <h1 id="waswirtun">WAS WIR TUN</h1> <br>
+                <p id="waswirtun1">Als Dienstleister für professionelle Software-Entwicklung liefern wir Ihnen
+                    maßgeschneiderte
+                    Softwarelösungen. Wir analysieren Ihre Anforderungen unter Berücksichtigung betriebswirtschaftlicher
+                    und technischer Aspekte und erstellen Ihnen die ideale Software, um Ihre Abläufe zu unterstützen und
+                    zu beschleunigen. <br> <br>
+
+                    Optimieren Sie mit uns Ihre Workflows entlang der gesamten Wertschöpfungskette und legen Sie neue
+                    Potentiale für Ihr Unternehmen frei. Wir beraten Sie gerne, sowohl über den gesamten IT-Bereich
+                    hinweg, als auch beim Erkennen von Verbesserungsoptionen in Ihren Unternehmen. <br> <br>
+                    <img id="business" src="/images/business.jpg" alt="business">
+
+
+                    <span style="font-style: italic; font-size: larger; font-weight: bold;"> "Wir entwickeln genau die
+                        Software-Lösung, die Sie benötigen!" </span>
+                    <br><br><br>
+
+                    Gemeinsam mit Ihnen entwickeln wir geeignete, individuelle Software und identifizieren
+                    gegebenenfalls passende Standardsoftware. Wir übernehmen für Sie das Customizing und die Integration
+                    der Software in Ihr Unternehmen, sowie die Schulung der Anwender.</p>
             </div>
         </div>
-        <!--Menu-->
-        <div class="topnav">
-            <a href="#">Home</a>
-            <a href="#">Kontakt</a>
-            <a href="#">Account</a>
-            <a href="#" style="float:right">About</a>
-        </div>
-        <!---------------------body--------------------------->
-        <div class="row">
-            <div class="leftcolumn">
-                <div class="card">
-                    <h2>TITLE HEADING</h2>
-                    <h5>Title description, Dec 1, 2020</h5>
-                    <div>Image</div>
-                    <p>Some text..</p>
-                    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-                </div>
-                <div class="card">
-                    <h2>TITLE HEADING</h2>
-                    <h5>Title description, Dec 1, 2020</h5>
-                    <div>Image</div>
-                    <p>Some text..</p>
-                    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        <div class="rightcolumn">
+            <div class="card">
+                <h2 id="posthead">About Me</h2>
+                <div>Image</div>
+                <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+            </div>
+            <div class="cardpost">
+                <h2 id="posthead">Popular Post</h2>
+                <br>
+                <div><img id="postimage" src="images/post1.jpg" alt="post1">
+                    <h3>Post1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, libero.</p>
+                </div><br>
+                <div><img id="postimage"  src="/images/post2.jpg" alt="post2">
+                    <h3>Post2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, eaque!</p>
+                </div><br>
+                <div><img id="postimage"  src="/images/post3.jpg" alt="post3">
+                    <h3>Post3</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, iste.</p>
                 </div>
             </div>
-            <div class="rightcolumn">
-                <div class="card">
-                    <h2>About Me</h2>
-                    <div>Image</div>
-                    <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-                </div>
-                <div class="card">
-                    <h3>Popular Post</h3>
-                    <div>Image</div>
-                    <div>Image</div>
-                    <div>Image</div>
-                </div>
-                <div class="card">
-                    <h3>Follow Me</h3>
-                    <p>Some text..</p>
-                </div>
+            <div class="card">
+                <h3 id="posthead">Follow Me</h3>
+                <p>Some text..</p>
             </div>
         </div>
-        <!--Footer-->
-        <div class="footer">
-            <h2>Footer</h2>
-        </div>
-        
-    </body>
+    </div>
+    <!--Footer-->
+    <div class="footer">
+        <h2>Footer</h2>
+    </div>
+
+</body>
+
 </html>
