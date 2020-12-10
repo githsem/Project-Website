@@ -5,7 +5,7 @@
   display: flex;
   background: #1abc9c;
   color: white;
-  background-image: url("images/digital.jpg");
+  background-image: url("../images/digital.jpg");
   
 }
 .header h1 {
