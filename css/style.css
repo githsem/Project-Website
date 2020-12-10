@@ -101,6 +101,23 @@ body {
 
 }
 
+.card3 {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.produkte {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
 .row {
     display: flex;
 }
@@ -144,6 +161,23 @@ body {
     font-weight: bolder;
 }
 
+#prdkt {
+    width: 45%;
+    border-radius: 60px;
+    margin-left: 30%;
+}
+
+#prdkt:hover {
+    width: 55%;
+}
+
+.ptag {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 70%;
+    font-size: 20px;
+}
+
 
 @media (max-width: 800px) {
     .leftcolumn {
@@ -157,11 +191,14 @@ body {
     .row {
         display: table;
     }
-}
 
-@media screen and (max-width: 400px) {
-    .topnav a {
-        float: none;
-        width: 100%;
+    .ptag {
+        font-size: smaller;
     }
-}
+
+    @media screen and (max-width: 400px) {
+        .topnav a {
+            float: none;
+            width: 100%;
+        }
+    }
