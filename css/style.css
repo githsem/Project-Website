@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -16,8 +16,9 @@ body {
     background: #1abc9c;
     color: white;
     background-image: url("../images/digital.jpg");
-    
+
 }
+
 .header h1 {
     font-size: 50px
 }
@@ -25,13 +26,14 @@ body {
 .topnav {
     display: flex;
     position: sticky;
-    top:0;
+    top: 0;
     overflow: hidden;
     background-color: #333;
     align-items: flex-end;
 }
+
 .topnav a {
-    
+
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
@@ -42,16 +44,19 @@ body {
     background-color: #ddd;
     color: black;
 }
-.div_header{
+
+.div_header {
     text-align: center;
     display: flex;
     color: black;
 }
-.div_header span{       
-   padding: 80px;
-   font-size: 30px;
-    
+
+.div_header span {
+    padding: 80px;
+    font-size: 30px;
+
 }
+
 .fakeimg {
     background-color: #aaa;
     width: 100%;
@@ -115,7 +120,7 @@ body {
     display: flex;
     justify-content: space-around;
     background-color: white;
-    
+
     padding: 20px;
     margin-top: 20px;
 
@@ -204,28 +209,34 @@ body {
     padding: 20px;
     text-align: center;
     background: #ddd;
- 
+
 }
-ul{
+
+ul {
     list-style-type: none;
 }
-.socialmedia{
- width: 70%;
- height: 200%;
+
+.socialmedia {
+    width: 70%;
+    height: 200%;
 }
-li{
-   font-size: 30px;
-   margin-left: 30px;
-   float: left;
+
+li {
+    font-size: 30px;
+    margin-left: 30px;
+    float: left;
 }
-#cr{
+
+#cr {
     font-size: 20px;
-    float: right; 
+    float: right;
 }
-span{
-    content:"\00A9";
+
+span {
+    content: "\00A9";
     text-decoration: underline;
 }
+
 @media (max-width: 800px) {
     .leftcolumn {
         width: 100%;
@@ -243,9 +254,10 @@ span{
         font-size: smaller;
     }
 }
-    @media screen and (max-width: 400px) {
-        .topnav a {
-            float: none;
-            width: 100%;
-        }
+
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
     }
+}

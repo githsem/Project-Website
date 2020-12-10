@@ -1,9 +1,12 @@
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
+}
+
+body {
+    background-color: cornsilk;
 }
 
 .header {
@@ -12,20 +15,25 @@
     color: white;
     background-image: url("../images/digital.jpg");
 
-    
+
 }
+
 .header h1 {
     font-size: 50px
 }
+
 .topnav {
     display: flex;
+    position: sticky;
+    top: 0;
     overflow: hidden;
     width: 100%;
     background-color: #333;
     align-items: flex-end;
 }
+
 .topnav a {
-    
+
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
@@ -36,34 +44,39 @@
     background-color: #ddd;
     color: black;
 }
-.div_header{
+
+.div_header {
     text-align: center;
     display: flex;
     color: black;
 }
-.div_header span{       
-   padding: 80px;
-   font-size: 30px;
-    
+
+.div_header span {
+    padding: 80px;
+    font-size: 30px;
+
 }
-.unserteam{
+
+.unserteam {
     display: flex;
     flex-direction: column;
-    
+
     padding: 2em;
     max-width: 40em;
     border-radius: .25em;
     background-color: cornsilk;
     margin-left: 25%;
-   
+
 
 }
+
 img {
     margin-right: 5px;
 
 
 }
-p{
+
+p {
     margin: 0 0 10px 0;
     border: none;
     font-size: x-large;
@@ -73,50 +86,55 @@ p{
 
 
 
-h1{
+h1 {
     font-size: medium;
     align-items: center;
     align-content: center;
 }
+
 .item {
-    
+
     display: flex;
     padding: 1em .5em;
 
 
 }
-.paraf{
-    
+
+.paraf {
+
     flex-direction: column;
     font-family: Arial;
     padding: 10px;
-    
+
     font-size: 20px;
     text-align: center;
     font-style: italic;
     display: flex;
     justify-content: center;
-    
+
 }
 
 
-.ha{
-    
+.ha {
+
     background-color: rgb(200, 247, 156);
 }
 
-.ma{
+.ma {
     background-color: rgb(133, 223, 226);
 }
-.has{
+
+.has {
     background-color: rgb(172, 167, 248);
 }
-.an{
+
+.an {
     background-color: rgb(103, 243, 243);
 }
-.sa{
+
+.sa {
     background-color: rgb(243, 186, 186);
 }
 
 
-@media (max-width:400px){}
+@media (max-width:400px) {}
