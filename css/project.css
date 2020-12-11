@@ -140,8 +140,10 @@ h1 {
 @media (max-width: 800px) {
 
     .unserteam {
-        margin-left: 0px;
+        margin: 0px;
+        float: none;
         display: table;
+        padding: 0px;
     
     }
    
