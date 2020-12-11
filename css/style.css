@@ -253,6 +253,9 @@ span {
     .ptag {
         font-size: smaller;
     }
+    #prdkt{
+        height: 150px;
+    }
 }
 
 @media screen and (max-width: 400px) {
